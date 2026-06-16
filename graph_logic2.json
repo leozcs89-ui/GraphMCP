@@ -1,0 +1,59 @@
+{
+  "project": "graphMCP",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "id": "node-1781575464868-im8vq",
+      "type": "structure",
+      "label": "俄罗斯方块网页游戏",
+      "status": "todo",
+      "x": 388.5,
+      "y": 184.5,
+      "children": []
+    },
+    {
+      "id": "node-1781579112703-ctn4c",
+      "type": "structure",
+      "label": "前端",
+      "status": "todo",
+      "x": 229.3164813340618,
+      "y": 325.17798390813977,
+      "children": []
+    },
+    {
+      "id": "node-1781583020451-81m2g",
+      "type": "structure",
+      "label": "后端",
+      "status": "todo",
+      "x": 549.6582406670309,
+      "y": 330.5889919540699,
+      "children": []
+    },
+    {
+      "id": "node-1781583032813-pn6he",
+      "type": "structure",
+      "label": "w,a,s,d操作方块移动 空格快速下坠 R旋转方块",
+      "status": "todo",
+      "x": 65.6582406670309,
+      "y": 456.5889919540699,
+      "children": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-1781579112703-51nl7",
+      "source": "node-1781575464868-im8vq",
+      "target": "node-1781579112703-ctn4c"
+    },
+    {
+      "id": "e-1781583020451-k93dw",
+      "source": "node-1781575464868-im8vq",
+      "target": "node-1781583020451-81m2g"
+    },
+    {
+      "id": "e-1781583032813-g3jns",
+      "source": "node-1781579112703-ctn4c",
+      "target": "node-1781583032813-pn6he"
+    }
+  ]
+}

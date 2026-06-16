@@ -1,0 +1,59 @@
+{
+  "project": "graphMCP",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "id": "wf-base",
+      "type": "workflow",
+      "label": "建立基础节点",
+      "status": "todo",
+      "x": -69.96364156152055,
+      "y": 22.54650223802708,
+      "children": []
+    },
+    {
+      "id": "wf-mcp",
+      "type": "workflow",
+      "label": "打通MCP,让agent可以读取到当前图表",
+      "status": "todo",
+      "x": -142.85661140270574,
+      "y": 142.2590134105151,
+      "children": []
+    },
+    {
+      "id": "node-1781536234113-kjhlz",
+      "type": "workflow",
+      "label": "选择一个图表的根",
+      "status": "todo",
+      "x": -37.029690365689476,
+      "y": 241.08841311871856,
+      "children": []
+    },
+    {
+      "id": "node-1781536259325-def7d",
+      "type": "workflow",
+      "label": "得到编译的snl结果",
+      "status": "todo",
+      "x": -81.66017115985751,
+      "y": 347.1371609340794,
+      "children": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "wf-base",
+      "target": "wf-mcp"
+    },
+    {
+      "id": "e-1781536234113-yiwo6",
+      "source": "wf-mcp",
+      "target": "node-1781536234113-kjhlz"
+    },
+    {
+      "id": "e-1781536259325-wp56y",
+      "source": "node-1781536234113-kjhlz",
+      "target": "node-1781536259325-def7d"
+    }
+  ]
+}

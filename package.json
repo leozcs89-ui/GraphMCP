@@ -1,0 +1,18 @@
+{
+  "name": "graphmcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Visual AI-assisted development tool for Vibe Coding with MCP protocol",
+  "scripts": {
+    "dev:gui": "npm run dev --workspace=gui",
+    "dev:server": "npm run dev --workspace=server",
+    "dev": "concurrently -n gui,server -c blue,green \"npm run dev:gui\" \"npm run dev:server\""
+  },
+  "workspaces": [
+    "gui",
+    "server"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
